@@ -10,11 +10,6 @@ const Engineer = require('./lib/Engineer');
 const Manager = require('./lib/Manager');
 const Intern = require('./lib/Intern');
 
-// create html file from the information entered about the Team 
-// const OUTPUT_DIR = path.resolve(__dirname, "dist");
-// const outputPath = path.join(OUTPUT_DIR, "output.html");
-// const render = require("./lib/htmlRenderer");
-
 // array for prompt answers
 const teamMembers = [];
 
@@ -138,16 +133,6 @@ function createHTML () {
       "utf-8"
     );
   }
-
-// // generate html for team profiles
-// function renderHTML(data) {
-//     if (!fs.existsSync(OUTPUT_DIR)) {
-//         fs.mkdirSync(OUTPUT_DIR);
-//     }
-//     fs.writeFile(outputPath, render(data), (err) =>
-//         err ? console.error(err) : console.log("Success! Your Team Profile has been generated"))
-
-// }
 
 // function call to initialize app
 managerData();
