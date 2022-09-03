@@ -1,3 +1,5 @@
+Please refer to my README file "Team Profile Generator.md"
+
 # 10 Object-Oriented Programming: Team Profile Generator
 
 ## Your Task
